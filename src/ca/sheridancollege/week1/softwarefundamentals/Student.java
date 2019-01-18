@@ -17,12 +17,23 @@ public class Student {
      */
     private String name;
     private int ID;
+    private int program;
 
     public Student(String givenName, int givenID)
     {
         name=givenName;
         ID=givenID;
     }
+
+    public int getProgram() {
+        return program;
+    }
+
+    public void setProgram(int program) {
+        this.program = program;
+    }
+    
+    
     /**
      * @return the name
      */
